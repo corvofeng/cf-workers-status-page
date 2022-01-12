@@ -34,6 +34,6 @@ monitors:
 
   - id: corvo-blog
     name: The Corvo Blog
-    url: 'https://corvo.myseu.n/'
+    url: 'https://corvo.myseu.cn/'
     method: GET
     expectStatus: 200
