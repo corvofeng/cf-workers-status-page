@@ -37,3 +37,15 @@ monitors:
     url: 'https://corvo.myseu.cn/'
     method: GET
     expectStatus: 200
+
+  - id: rawforcorvofeng
+    name: rawforcorvomyseu-cn
+    url: 'https://rawforcorvofeng.cn/'
+    method: GET
+    expectStatus: 200
+
+  - id: vsnip 
+    name: vsnips-rawforcorvomyseu-cn
+    url: 'https://vsnips.rawforcorvofeng.cn/'
+    method: GET
+    expectStatus: 200
