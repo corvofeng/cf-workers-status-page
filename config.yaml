@@ -1,6 +1,6 @@
 settings:
   title: "YuHao's site status page"
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  url: 'https://status.corvo.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -24,6 +24,18 @@ monitors:
   #   followRedirect: false # should fetch follow redirects, default=false
   #   linkable: false # allows the title to be a link, default=true
 
+  - id: corvo-blog
+    name: corvo-myseu-cn
+    url: 'https://corvo.myseu.cn/'
+    method: GET
+    expectStatus: 200
+
+  - id: corvo-fun
+    name: corvo-fun
+    url: 'https://corvo.fun/'
+    method: GET
+    expectStatus: 200
+
   - id: ttrss-corvo-fun
     name: ttrss-corvo-fun
     description: 'My ttrss reader'
@@ -32,19 +44,13 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: corvo-blog
-    name: corvo-myseu-cn
-    url: 'https://corvo.myseu.cn/'
-    method: GET
-    expectStatus: 200
-
   - id: rawforcorvofeng
     name: rawforcorvomyseu-cn
     url: 'https://rawforcorvofeng.cn/'
     method: GET
     expectStatus: 200
 
-  - id: vsnip 
+  - id: vsnip
     name: vsnips-rawforcorvomyseu-cn
     url: 'https://vsnips.rawforcorvofeng.cn/'
     method: GET
