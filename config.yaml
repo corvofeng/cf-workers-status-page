@@ -36,14 +36,6 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: ttrss-corvo-fun
-    name: ttrss-corvo-fun
-    description: 'My ttrss reader'
-    url: 'https://ttrss.corvo.fun/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
   - id: rawforcorvofeng
     name: rawforcorvomyseu-cn
     url: 'https://rawforcorvofeng.cn/'
@@ -55,3 +47,11 @@ monitors:
     url: 'https://vsnips.rawforcorvofeng.cn/'
     method: GET
     expectStatus: 200
+
+  - id: ttrss-corvo-fun
+    name: ttrss-corvo-fun
+    description: 'My ttrss reader'
+    url: 'https://ttrss.corvo.fun/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
