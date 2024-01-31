@@ -38,7 +38,7 @@ monitors:
 
   - id: rawforcorvofeng
     name: rawforcorvomyseu-cn
-    url: 'https://rawforcorvofeng.cn/'
+    url: 'https://rawforcorvofeng.cn/index.html'
     method: GET
     expectStatus: 200
 
