@@ -49,6 +49,7 @@ monitors:
     method: GET
     expectStatus: 200
 
+
   # - id: ttrss-corvo-fun
   #   name: ttrss-corvo-fun
   #   description: 'My ttrss reader'
