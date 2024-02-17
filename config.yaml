@@ -43,12 +43,17 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: vsnip
-    name: vsnips-rawforcorvomyseu-cn
-    url: 'https://vsnips.rawforcorvofeng.cn/'
+  - id: bitwarden
+    name: bitwarden
+    url: 'https://bitwarden.corvo.fun'
     method: GET
     expectStatus: 200
 
+  # - id: vsnip
+  #   name: vsnips-rawforcorvomyseu-cn
+  #   url: 'https://vsnips.rawforcorvofeng.cn/'
+  #   method: GET
+  #   expectStatus: 200
 
   # - id: ttrss-corvo-fun
   #   name: ttrss-corvo-fun
